@@ -1,0 +1,19 @@
+#banner{
+    background-image: url('slide1.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 400px;
+    max-height: 400px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#banner h4{
+    padding: 15px;
+    color: var(--blanco);
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1em 1em 1em 1em;
+    font-size: 2em;
+    width: 55%;
+}
