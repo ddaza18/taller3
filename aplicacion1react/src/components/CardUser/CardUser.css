@@ -1,0 +1,13 @@
+.users{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card-user{
+    width: 30%;
+    box-shadow: 3px 3px 3px #000000;
+}
+.card-header{
+    background-color: blueviolet;
+    color: #FFFFFF;
+}

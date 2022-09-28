@@ -12,6 +12,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
     <Routes>
+      <Route path='/users/' element={<Users/>}></Route>
+      <Route path='/user-card/' element={<CardUser/>}></Route>
       <Route path='/' element={<Home/>}/>
       <Route path='/login' element={<Login/>}/>
       <Route path='/habitaciones' element={<Habitaciones/>}/>
